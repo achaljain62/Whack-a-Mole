@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  background-color: #181a1b;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+button {
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  color: white;
+}
+.headline {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: column wrap;
+  height: 618px;
+  width: 1100px;
+  padding: 5px;
+}
+
+.square {
+  cursor: url("hammer.png"), pointer;
+  width: 200px;
+  height: 200px;
+  background-image: url("hole.png");
+  margin: 1px;
+}
+
+.mole {
+  background-image: url("mole.png");
+  background-size: cover;
+}
